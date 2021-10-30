@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue:regular" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,regular,700&display=swap&subset=cyrillic-ext" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Cormorant:700&display=swap&subset=cyrillic-ext" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Melody-home</title>
+</head>
+    <body>
+        
+        <div class="home">
+            <header class="home__header">
+                <div class="container">
+                 <ul class="home__header-list">
+                     <li class="home__header-item item--return">
+                         <a class="home__header-link" href="index.html">
+                          <svg xmlns="http://www.w3.org/2000/svg" fill="#000000" viewBox="0 0 24 24" width="30" height="30">
+                              <path class="header-svg__path" d="M12,24a1,1,0,0,1-.71-.29L3.12,15.54a5,5,0,0,1,0-7.08L11.29.29a1,1,0,1,1,1.42,1.42L4.54,9.88a3,3,0,0,0,0,4.24l8.17,8.17a1,1,0,0,1,0,1.42A1,1,0,0,1,12,24Z"/>
+                              <path class="header-svg__path" d="M22,24a1,1,0,0,1-.71-.29l-9.58-9.59a3,3,0,0,1,0-4.24L21.29.29a1,1,0,1,1,1.42,1.42l-9.59,9.58a1,1,0,0,0,0,1.42l9.59,9.58a1,1,0,0,1,0,1.42A1,1,0,0,1,22,24Z"/>
+                          </svg>
+                         </a>
+                     </li>
+                     <li class="home__header-item">
+                         <a class="home__header-link" href="+73433642475">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#000000" width="30" height="30">
+                              <path class="header-svg__path" d="M15,0H9A5.006,5.006,0,0,0,4,5V19a5.006,5.006,0,0,0,5,5h6a5.006,5.006,0,0,0,5-5V5A5.006,5.006,0,0,0,15,0ZM9,2h6a3,3,0,0,1,3,3V16H6V5A3,3,0,0,1,9,2Zm6,20H9a3,3,0,0,1-3-3V18H18v1A3,3,0,0,1,15,22Z"/><circle cx="12" cy="20" r="1"/>
+                          </svg>
+                          <span class="header-link__text">8 (843) 123-45-67</span>
+                         </a>
+                     </li>
+                     <li class="home__header-item">
+                         <a class="home__header-link" href="index.html">
+                          <svg xmlns="http://www.w3.org/2000/svg" id="Outline" viewBox="0 0 24 24" width="30" height="30">
+                              <path class="header-svg__path" d="M16,8a1,1,0,0,0-1.414,0L12,10.586,9.414,8A1,1,0,0,0,8,9.414L10.586,12,8,14.586A1,1,0,0,0,9.414,16L12,13.414,14.586,16A1,1,0,0,0,16,14.586L13.414,12,16,9.414A1,1,0,0,0,16,8Z"/>
+                              <path class="header-svg__path" d="M12,0A12,12,0,1,0,24,12,12.013,12.013,0,0,0,12,0Zm0,22A10,10,0,1,1,22,12,10.011,10.011,0,0,1,12,22Z"/>
+                          </svg>
+                             <span class="header-link__text">Закрыть каталог</span>
+                         </a>
+                     </li>
+                 </ul>
+                </div>
+            </header>
+            <main>
+                <form action="#" method="post">
+                <nav class="home-nav">
+                    <div class="container">
+                        <div class="home-nav__filter">
+                            <ul class="home-nav__list one">
+
+                                <li class="home-nav__item">
+                                    <div class="home-nav__premises">
+                                        <h3 class="home__heading">Тип помещения</h3>
+                                        <div class="home__container">
+                                            <a class="home-nav__link" href="#">Квартира</a>
+                                            <a class="home-nav__link" href="#">Машиноместо</a>
+                                            <a class="home-nav__link" href="#">Офис</a>
+                                            <a class="home-nav__link" href="#">Кладовка</a>
+                                            <a class="home-nav__link" href="#">Торговое помешение</a>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="home-nav__item">
+                                    <div class="home-nav__room">
+                                        <h3 class="home__heading">Количество комнат</h3>
+                                        <div class="home__container">
+
+                                            <label class="checkbox" for="a">
+                                                <input type="checkbox" name="Room" id="a" value="1">
+                                                <div class="checkbox__text">1</div>
+                                            </label>
+
+                                            <label class="checkbox" for="b">
+                                                <input type="checkbox" name="Room" id="b" value="2">
+                                                <div class="checkbox__text">2</div>
+                                           </label>
+
+                                           <label class="checkbox" for="c">
+                                                <input type="checkbox" name="Room" id="c" value="3">
+                                                <div class="checkbox__text">3</div>
+                                           </label>
+
+                                           <label class="checkbox" for="k">
+                                                <input type="checkbox" name="Room" id="k" value="4">
+                                                <div class="checkbox__text">4+</div>
+                                           </label>
+
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="home-nav__item">
+                                    <div class="home__rom-to-price">
+                                        <span>₽</span>
+                                        <input class="home-nav__input" type="text" name="" value="" placeholder="от">
+                                        <input class="home-nav__input" type="text" name="" value="" placeholder="до">
+                                    </div>
+                                </li>
+
+                                <li class="home-nav__item">
+                                    <div class="home__rom-to-square">
+                                        <span>м²</span>
+                                        <input class="home-nav__input" type="text" name="" value="" placeholder="от">
+                                        <input class="home-nav__input" type="text" name="" value="" placeholder="до">
+                                    </div>
+                                </li>
+
+                                <li class="home-nav__item">
+                                    <div class="home-nav__deadline">
+                                        <h3 class="home__heading">Срок сдачи</h3>
+                                        <div class="home__container">
+                                            <div class="home__deadline-link">
+
+                                                <label>
+                                                    <input class="radio-box" type="checkbox" name="quarter" value="1">
+                                                    <span class="radio-style home__deadline-quarter">I кв</span>
+                                                </label>
+
+                                                <label>
+                                                    <input class="radio-box" type="checkbox" name="quarter" value="2">
+                                                    <span class="radio-style home__deadline-quarter">II кв.</span>
+                                                </label>
+
+                                                <label>
+                                                    <input class="radio-box" type="checkbox" name="quarter" value="3">
+                                                    <span class="radio-style home__deadline-quarter">III кв.</span>
+                                                </label>
+
+                                                <label>
+                                                    <input class="radio-box" type="checkbox" name="quarter" value="4">
+                                                    <span class="radio-style home__deadline-quarter">IV кв.</span>
+                                                </label>
+
+                                            </div>
+                                            <div class="home__deadline-link">
+
+                                                <label>
+                                                    <input class="radio-box" type="radio" name="passed" value="1">
+                                                    <span class="radio-style home__deadline-passed">Сдан</span>
+                                                </label>
+
+                                                <label>
+                                                    <input class="radio-box" type="radio" name="passed" value="2">
+                                                    <span class="radio-style home__deadline-passed">2021</span>
+                                                </label>
+
+                                                <label>
+                                                    <input class="radio-box" type="radio" name="passed" value="3">
+                                                    <span class="radio-style home__deadline-passed">2022</span>
+                                                </label>
+
+                                                <label>
+                                                    <input class="radio-box" type="radio" name="passed" value="4">
+                                                    <span class="radio-style home__deadline-passed">2023</span>
+                                                </label>
+
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="home-nav__item">
+                                    <div class="home-nav__finishing">
+                                        <h3 class="home__heading"> Тип отделки</h3>
+                                        <div class="home__container">
+
+                                            <label class="checkbox" for="s">
+                                                <input type="checkbox" name="finishing" id="s" value="1">
+                                                <div class="checkbox__text">под чистовую</div>
+                                            </label>
+
+                                            <label class="checkbox" for="d">
+                                                <input type="checkbox" name="finishing" id="d" value="2">
+                                                <div class="checkbox__text">чистовая</div>
+                                            </label>
+                                            
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="home-nav__item">
+                                    <div class="home-nav__prise">
+                                        <h3 class="home__heading">Стоимость м²</h3>
+                                        <div class="home__container">
+                                            <div class="home__rom-to-price">
+                                                <span>₽</span>
+                                                <input class="home-nav__input" type="text" name="" value="" placeholder="от">
+                                                <input class="home-nav__input" type="text" name="" value="" placeholder="до">
+                                            </div>
+                                            
+                                       </div>
+                                    </div>
+                                </li>
+
+                            </ul>
+                            <div class="home-nav__search">
+                                <div class="home-search__body">
+                                    <button class="home-search__btn btn-red" type="reset">Сбросить</button>
+                                    <button class="home-search__btn btn-blue" type="submit">Поиск</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </nav>
+            </form>
+            </main>
+            <div class="container">
+             <div class="home-apartment">
+                 <div class="home-apartment__body">
+                     <div class="home-apartment__column">
+                          <div class="home-apartment__item">
+      
+                              <div class="home-apartment__description">
+                                  <div class="home-description__info">
+                                      <span class="home-description__section">
+                                      Секция 12
+                                      </span>
+                                      <span class="home-description__quarter">
+                                      II кв. 2023 
+                                      </span>
+                                  </div>
+                                  <a class="home-description__link" href="#">
+                                      <h3 class="home-description__title">
+                                      «Каменные Палатки»
+                                      </h3>
+                                  </a>
+                                      <p class="home-description__town">
+                                      Екатеринбург
+                                      </p>
+                              </div>
+          
+                              <div class="home-apartment__container-photo">
+                                  <a class="home-apartment__images-link" href="#">
+                                      <img class="home-apartment__images" src="images/home-apartment/apartment__item-1.jpg" alt="">
+                                      
+                                  </a>
+                              </div>
+          
+                              <div class="home-apartment__price">
+                                  <div class="home__price-info">
+                                      <a class="home__price-link" href="#">
+                                      Найдено 33 помещения
+                                      </a>
+                                      <span class="home__price-floors">
+                                      25 этажей
+                                      </span>
+                                  </div>
+                                      <h4 class="home__price-from">
+                                      от 4 744 968 ₽
+                                      </h4>
+                                      <p class="home__price-square">
+                                      от 94 702 ₽/м²
+                                      </p>
+                              </div>
+          
+                          </div>
+                     </div>
+      
+                     <div class="home-apartment__column">
+                      <div class="home-apartment__item">
+      
+                          <div class="home-apartment__description">
+                              <div class="home-description__info">
+                                  <span class="home-description__section">
+                                  Секция 11
+                                  </span>
+                                  <span class="home-description__quarter">
+                                  II кв. 2023 
+                                  </span>
+                              </div>
+                              <a class="home-description__link" href="#">
+                                  <h3 class="home-description__title">
+                                  «Каменные Палатки»
+                                  </h3>
+                              </a>
+                                  <p class="home-description__town">
+                                  Екатеринбург
+                                  </p>
+                          </div>
+      
+                          <div class="home-apartment__container-photo">
+                              <a class="home-apartment__images-link" href="#">
+                                  <img class="home-apartment__images" src="images/home-apartment/apartment__item-2.jpg" alt="">
+                              </a>
+                          </div>
+      
+                          <div class="home-apartment__price">
+                              <div class="home__price-info">
+                                  <a class="home__price-link" href="#">
+                                  Найдено 25 помещений
+                                  </a>
+                                  <span class="home__price-floors">
+                                  29 этажей
+                                  </span>
+                              </div>
+                                  <h4 class="home__price-from">
+                                  от 4 964 895 ₽
+                                  </h4>
+                                  <p class="home__price-square">
+                                  от 94 185 ₽/м²
+                                  </p>
+                          </div>
+      
+                             </div>
+                         </div>
+      
+                         <div class="home-apartment__column">
+                             <div class="home-apartment__item">
+             
+                             <div class="home-apartment__description">
+                                 <div class="home-description__info">
+                                     <span class="home-description__section">
+                                     Секция 10
+                                     </span>
+                                     <span class="home-description__quarter">
+                                     II кв. 2023 
+                                     </span>
+                                 </div>
+                                 <a class="home-description__link" href="#">
+                                     <h3 class="home-description__title">
+                                     «Каменные Палатки»
+                                     </h3>
+                                 </a>
+                                     <p class="home-description__town">
+                                     Екатеринбург
+                                     </p>
+                             </div>
+             
+                             <div class="home-apartment__container-photo">
+                                 <a class="home-apartment__images-link" href="#">
+                                     <img class="home-apartment__images" src="images/home-apartment/apartment__item-3.jpg" alt="">
+                                 </a>
+                             </div>
+             
+                             <div class="home-apartment__price">
+                                 <div class="home__price-info">
+                                     <a class="home__price-link" href="#">
+                                     Найдено 28 помещений
+                                     </a>
+                                     <span class="home__price-floors">
+                                     17 этажей
+                                     </span>
+                                 </div>
+                                     <h4 class="home__price-from">
+                                     от 4 251 573 ₽
+                                     </h4>
+                                     <p class="home__price-square">
+                                     от 95 220 ₽/м²
+                                     </p>
+                             </div>
+             
+                             </div>
+                         </div>
+      
+                         <div class="home-apartment__column">
+                             <div class="home-apartment__item">
+                 
+                                 <div class="home-apartment__description">
+                                     <div class="home-description__info">
+                                         <span class="home-description__section">
+                                         Секция 9
+                                         </span>
+                                         <span class="home-description__quarter">
+                                         II кв. 2023 
+                                         </span>
+                                     </div>
+                                     <a class="home-description__link" href="#">
+                                         <h3 class="home-description__title">
+                                         «Каменные Палатки»
+                                         </h3>
+                                     </a>
+                                         <p class="home-description__town">
+                                         Екатеринбург
+                                         </p>
+                                 </div>
+                 
+                                 <div class="home-apartment__container-photo">
+                                     <a class="home-apartment__images-link" href="#">
+                                         <img class="home-apartment__images" src="images/home-apartment/apartment__item-4.jpg" alt="">
+                                     </a>
+                                 </div>
+                 
+                                 <div class="home-apartment__price">
+                                     <div class="home__price-info">
+                                         <a class="home__price-link" href="#">
+                                         Найдено 10 помещений
+                                         </a>
+                                         <span class="home__price-floors">
+                                         9 этажей
+                                         </span>
+                                     </div>
+                                         <h4 class="home__price-from">
+                                         от 4 866 815 ₽
+                                         </h4>
+                                         <p class="home__price-square">
+                                         от 89 528 ₽/м²
+                                         </p>
+                                 </div>
+                 
+                             </div>
+                         </div>
+     
+                         <div class="home-apartment__column">
+                             <div class="home-apartment__item">
+                 
+                                 <div class="home-apartment__description">
+                                     <div class="home-description__info">
+                                         <span class="home-description__section">
+                                         Секция 8
+                                         </span>
+                                         <span class="home-description__quarter">
+                                         II кв. 2023 
+                                         </span>
+                                     </div>
+                                     <a class="home-description__link" href="#">
+                                         <h3 class="home-description__title">
+                                         «Каменные Палатки»
+                                         </h3>
+                                     </a>
+                                         <p class="home-description__town">
+                                         Екатеринбург
+                                         </p>
+                                 </div>
+                 
+                                 <div class="home-apartment__container-photo">
+                                     <a class="home-apartment__images-link" href="#">
+                                         <img class="home-apartment__images" src="images/home-apartment/apartment__item-5.jpg" alt="">
+                                     </a>
+                                 </div>
+                 
+                                 <div class="home-apartment__price">
+                                     <div class="home__price-info">
+                                         <a class="home__price-link" href="#">
+                                         Найдено 17 помещений
+                                         </a>
+                                         <span class="home__price-floors">
+                                         28 этажей
+                                         </span>
+                                     </div>
+                                         <h4 class="home__price-from">
+                                         от 5 060 188 ₽
+                                         </h4>
+                                         <p class="home__price-square">
+                                         от 91 043 ₽/м²
+                                         </p>
+                                 </div>
+                 
+                             </div>
+                         </div>
+     
+                         <div class="home-apartment__column" id="parking">
+                             <div class="home-apartment__item">
+                 
+                                 <div class="home-apartment__description">
+                                     <div class="home-description__info">
+                                         <span class="home-description__section">
+                                         Паркинг
+                                         </span>
+                                         <span class="home-description__quarter">
+                                         II кв. 2023 
+                                         </span>
+                                     </div>
+                                     <a class="home-description__link" href="#">
+                                         <h3 class="home-description__title">
+                                         «Каменные Палатки»
+                                         </h3>
+                                     </a>
+                                         <p class="home-description__town">
+                                         Екатеринбург
+                                         </p>
+                                 </div>
+                 
+                                 <div class="home-apartment__container-photo">
+                                     <a class="home-apartment__images-link" href="#">
+                                         <img class="home-apartment__images" src="images/home-apartment/apartment__item-6.jpg" alt="">
+                                     </a>
+                                 </div>
+                 
+                                 <div class="home-apartment__price">
+                                     <div class="home__price-info">
+                                         <a class="home__price-link" href="#">
+                                         Найдено 108 помещений
+                                         </a>
+                                         <span class="home__price-floors">
+                                         -1 этаж
+                                         </span>
+                                     </div>
+                                         <h4 class="home__price-from">
+                                         от 741 600 ₽
+                                         </h4>
+                                         <p class="home__price-square">
+                                         от 68 000 ₽/м²
+                                         </p>
+                                 </div>
+                 
+                             </div>
+                         </div>
+     
+                         <div class="home-apartment__column" id="pantries">
+                             <div class="home-apartment__item">
+                 
+                                 <div class="home-apartment__description">
+                                     <div class="home-description__info">
+                                         <span class="home-description__section">
+                                         Кладовые
+                                         </span>
+                                         <span class="home-description__quarter">
+                                         II кв. 2023 
+                                         </span>
+                                     </div>
+                                     <a class="home-description__link" href="#">
+                                         <h3 class="home-description__title">
+                                         «Каменные Палатки»
+                                         </h3>
+                                     </a>
+                                         <p class="home-description__town">
+                                         Екатеринбург
+                                         </p>
+                                 </div>
+                 
+                                 <div class="home-apartment__container-photo">
+                                     <a class="home-apartment__images-link" href="#">
+                                         <img class="home-apartment__images" src="images/home-apartment/apartment__item-7.jpg" alt="">
+                                     </a>
+                                 </div>
+                 
+                                 <div class="home-apartment__price">
+                                     <div class="home__price-info">
+                                         <a class="home__price-link" href="#">
+                                         Найдено 88 помещений
+                                         </a>
+                                         <span class="home__price-floors">
+                                         -1 этаж
+                                         </span>
+                                     </div>
+                                         <h4 class="home__price-from">
+                                         от 204 050 ₽
+                                         </h4>
+                                         <p class="home__price-square">
+                                         от 73 000 ₽/м²
+                                         </p>
+                                 </div>
+                 
+                             </div>
+                         </div>
+                 </div>
+             </div>
+            </div>
+        </div>
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
