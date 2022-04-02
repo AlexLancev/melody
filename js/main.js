@@ -21,6 +21,7 @@ $(document).ready(function() {
 
 $(function(){
   $('.progress__slider').slick({
+      lazyLoad: 'ondemand',
       arrows: true,
       dots: false,
       autoplay: false,
@@ -95,24 +96,3 @@ $(document).ready(function(){
     $(this).toggleClass('active').next().slideToggle(300);
   });
 });
-
-
-
-
-$(document).ready(function(){
-
-  function heightBlock(column){
-    var myblock = 0;
-
-    column.each(function(){
-      thisHight = $(this).height();
-      if(thisHight > myblock){
-        myblock = thisHight;
-      }
-    });
-  column.height(myblock);
-};
-
-heightBlock($('.home-apartment__column > div'));
-
-})
